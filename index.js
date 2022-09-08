@@ -12,7 +12,7 @@ const MongoStore = require("connect-mongo");
 const sassMiddleware = require("node-sass-middleware");
 
 const bodyParser = require("body-parser");
-const { default: mongoose } = require("mongoose");
+const { default: mongoose, trusted } = require("mongoose");
 
 const { Session } = require("express-session");
 // const cookieParser = require("cookie-parser");
