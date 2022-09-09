@@ -3,15 +3,10 @@
   padding: 0; }
 
 body {
-  width: 100vw;
+  width: 90%;
   height: 100vh;
+  margin: 0 auto;
   position: relative;
-  margin: 0;
-  padding: 0;
-  background-color: violet;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  background-color: violet; }
   body #layout-main {
     height: 100%; }
